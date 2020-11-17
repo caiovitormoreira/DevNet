@@ -1,0 +1,2 @@
+print ("R$ {:9.1f}".format(1000.15))
+print ("R$ {:07.2f}".format(4.11))
