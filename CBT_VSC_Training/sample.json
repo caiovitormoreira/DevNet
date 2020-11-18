@@ -1,0 +1,23 @@
+[
+    {
+        "ID":1,
+        "FirstName" : "Caio",
+        "LastName" : "Moreira",
+        "Email" : "caio@gmail.com",
+        "Active": true
+    },
+    {
+        "ID":2,
+        "FirstName" : "Ana",
+        "LastName" : "Alarcao",
+        "Email" : "ana@gmail.com",
+        "Active": true
+    },
+    {
+        "ID":3,
+        "FirstName" : "Gllazyany",
+        "LastName" : "Tonha",
+        "Email" : "gt@gmail.com",
+        "Active": false
+    }
+]
