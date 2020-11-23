@@ -28,8 +28,15 @@ class ContaCorrente:
     def deposita(self, valor):
         self.__saldo += valor
 
+    def __pode_sacar(self, valor_a_sacar):
+        valor_disponivel = self.__saldo + self.__limite
+        return valor_disponivel >= valor_a_sacar
+
     def saca(self, valor):
-        self.__saldo -= valor
+        if(self.__pode_sacar(valor)):
+            self.__saldo -= valor
+        else:
+            print("Error 304: you're broke!")
 
     def extrato(self):
         print("Saldo do titular {} é de {}".format(self.__titular, self.__saldo))
@@ -50,3 +57,11 @@ class ContaCorrente:
     def limite(self, novo_limite):
         print("chamado o metodo de set limite, mas com @setter")
         self.__limite = novo_limite
+
+    @staticmethod #static methods pertencem a classe. Isso significa que nao precisa de um objeto criado para chamar esse metodo
+    def codigo_banco():
+        return "001"
+
+    @staticmethod
+    def codigos_bancos():
+        return {'BB':'001', 'Caixa':'104', 'Bradesco':'237'}
