@@ -7,3 +7,4 @@ class Data:
 
     def formatada(self):
         print("{}/{}/{}".format(self.dia, self.mes, self.ano))
+

@@ -9,14 +9,21 @@ class ContaCorrente:
         self.__saldo = saldo
         self.__limite = limite
 
-    def get_numero_cc(self):
+    @property
+    def numero_cc(self):
+        print("chamado o get numero_cc, mas com @properties")
         return (self.__numero_cc)
-    def get_titular(self):
-        return (self.__titular)
-    def get_saldo(self):
+
+    @property
+    def titular(self):
+        print("chamado o get titular, mas com @properties")
+        return (self.__titular.title())
+        #esse title() faz a primeira letra ficar maíuscula
+    @property
+    def saldo(self):
+        print("chamado o get saldo, mas com @properties")
         return (self.__saldo)
-    def get_limite(self):
-        return (self.__limite)
+
 
     def deposita(self, valor):
         self.__saldo += valor
@@ -34,5 +41,12 @@ class ContaCorrente:
         print("Conta {} de {} tem extrato de {}".format(self.get_numero_cc(), self.get_titular(), self.__saldo))
         print("Conta {} de {} tem extrato de {}".format(destino.__numero_cc, destino.__titular, destino.__saldo))
 
-    def set_limite(self, novo_limite):
+    @property
+    def limite(self):
+        print("chamado o metodo de get.limite, mas com @properties")
+        return (self.__limite)
+
+    @limite.setter
+    def limite(self, novo_limite):
+        print("chamado o metodo de set limite, mas com @setter")
         self.__limite = novo_limite

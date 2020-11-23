@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\caio.moreira\PycharmProjects\mod3_ObjectOriented\venv"
+VIRTUAL_ENV="C:\Users\caio.moreira\Documents\Caio\Treinamentos\Cisco-DevNet-CbtNuggets\Python_code\mod3_ObjectOriented\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
