@@ -585,13 +585,13 @@
       <change beforePath="$PROJECT_DIR$/../jogos/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/venv/Scripts/python.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jogos/venv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/venv/Scripts/pythonw.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jogos/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/mod3_ObjectOriented.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mod3_ObjectOriented.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/override.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/override.py" afterDir="false" />
@@ -1147,7 +1147,6 @@
       <change beforePath="$PROJECT_DIR$/venv/conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/conta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/datas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/teste.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
