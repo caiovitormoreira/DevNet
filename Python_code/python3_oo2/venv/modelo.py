@@ -24,25 +24,31 @@ class Filme(Programa): #passando o nome da classe mae
         super().__init__(nome, ano) #esses 2 ja estao declarados
         self.duracao = duracao
 
+    def imprime(self):
+        print(f'{self.nome} - Ano: {self.ano} - Duração: {self.duracao} - Likes {self.likes}')
+
 class Serie(Programa):
     def __init__(self, nome, ano, temporadas):
         super().__init__(nome, ano)
         self.temporadas  = temporadas
 
+    def imprime(self):
+        print(f'{self.nome} - Ano: {self.ano} - Temporadas: {self.temporadas} - Likes {self.likes}')
+
 
 vingadores = Filme('vingadores - guerra infinita', 2018, 160)
+for i in range(144):
+    vingadores.likes_increase()
+
 atlanta = Serie('atlanta', 2018, 2)
-vingadores.likes_increase()
-vingadores.likes_increase()
-vingadores.likes_increase()
+for i in range(720):
+    atlanta.likes_increase()
 
-atlanta.likes_increase()
-atlanta.likes_increase()
+house = Serie("house", 2005, 9)
+for i in range(402):
+    house.likes_increase()
 
-print(f'Nome: {vingadores.nome} - Likes: {vingadores.likes}')
-print(f'Nome: {atlanta.nome} - Likes: {atlanta.likes}')
+filmes_e_series = [vingadores, atlanta, house]
 
-# house = Serie("house", 2005, 9)
-# chequemate = Filme("cheque mate", 2010, 130)
-# print(f'nome: {house.nome} - Ano: {house.ano} - Temporadas: {house.temporadas} - Likes: {house.likes}')
-# print(f'nome: {chequemate.nome} - Ano: {chequemate.ano} - Temporadas: {chequemate.temporadas} - Likes: {chequemate.likes}')
+for programa in filmes_e_series:
+    programa.imprime()
